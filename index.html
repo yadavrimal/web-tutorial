@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC tour and travel agency </title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images1/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images1/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images1/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images1/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images1/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images1/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images1/chitwan.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Chitwan Safari </h3>
+                <p>Jeep Safari in Chitwan National Park</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.10000 <span>NRS.12000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images1/mardi.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mardi Himal Treak </h3>
+                <p>The Mardi Himal Trek is a trek that you can find on a side trail of the one to the Annapurna Base Camp.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.40000<span>NRS.50000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images1/rara.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> RARA Lake</h3>
+                <p>Rara lake has been a popular destination with a very rough route in Western Nepal for trekkers.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.15000 <span>NRS.20000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images1/mustang.png" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Mustang </h3>
+                <p>Mustang is best for foot treak. Which is famous in world wide. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.12000 <span>NRS.15000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images1/pokhara.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Pokhara </h3>
+                <p>Pokhara has become a major tourist destination: it is considered the tourism capital of Nepal, mainly for adventure tourism and the base for the famous Annapurna Circuit trek!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.5000 <span>NRS.8000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images1/muktinath.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Muktinath Temple </h3>
+                <p>Muktinath, being one of the world's most famous religious and tourism locations, receives thousands of visitors every year. </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> NRS.15000 <span>NRS.18000</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>We will provide you a best hotel at the relaible price. They give you a good service which is available to the hotel at best rate.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>There is no kanjusi in food and drinks. We will provide food and drinks in any time. We will provide fresh food with drinks.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Guide is necessary for the tour. Guide must have knowledge about place where you want to go. So, we can manage professional guide for your help.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the Nepal</h3>
+            <p>We have a package of every visiting place of Nepal with relaible cost. You can consult with us that you where you want to go.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>We will provide you a fastest travel system. We can manage our own bus for the traveling so there is no disturbe for the travelling.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>We provide you and your team full of enjoy and memorable movement with adventure and fun with the team.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images1/everest1.jpg" alt="">
+            <div class="content">
+                <h3>Mount Everest Base Camp</h3>
+                <p>Best for treak and mountain view from everest base camp.</p>
+                <a href="https://en.wikipedia.org/wiki/Everest_base_camps" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/chitwan2.jpg" alt="">
+            <div class="content">
+                <h3>Chitwan National Park</h3>
+                <p>Chitwan National Park is best for jugle safari.</p>
+                <a href="https://youtu.be/4HmbSn7ocE8" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/phewa.jpeg" alt="">
+            <div class="content">
+                <h3>Phewa Lake</h3>
+                <p>Phewa lake is famous for rafting and enjoying the nature.</p>
+                <a href="https://en.wikipedia.org/wiki/Phewa_Lake" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/sarangkot.jpg" alt="">
+            <div class="content">
+                <h3>Sarangkot</h3>
+                <p>Sarangkot is best for view of sunrise.</p>
+                <a href="https://en.wikipedia.org/wiki/Phewa_Lake" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/barun_vally.jpg" alt="">
+            <div class="content">
+                <h3>Barun Valley</h3>
+                <p>You will see vast green meadows covered with flowers in a horde of colours, snow-dusted mountain peaks with numerous waterfalls.</p>
+                <a href="https://en.wikipedia.org/wiki/Barun_Valley" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/bhaktapur.jpg" alt="">
+            <div class="content">
+                <h3>Bhaktapur Durbar Square</h3>
+                <p>old royal palaces and adjoining temples, gardens and other monuments from the times when Nepal was three separate kingdoms</p>
+                <a href="https://en.wikipedia.org/wiki/Bhaktapur" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/panch.jpg" alt="">
+            <div class="content">
+                <h3>Panch Pokhari</h3>
+                <p>Panch Pokhari translates to a group of five lakes, located close to each other at an altitude of 4100 metres.</p>
+                <a href="https://en.wikipedia.org/wiki/Panch_Pokhari" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/lumbini.jpg" alt="">
+            <div class="content">
+                <h3>Lumbini</h3>
+                <p>Lumbini is the place where Queen Maya gave birth to Lord Buddha and hence is an important pilgrimage site for Buddhists.</p>
+                <a href="https://en.wikipedia.org/wiki/Lumbini" class="btn">Know more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images1/upper_mustang.jpg" alt="">
+            <div class="content">
+                <h3>Upper Mustang</h3>
+                <p>Upper Mustang lies north of the Himalayan mountain ranges, and you will find the culture here to be vastly different from the rest of Nepal.</p>
+                <a href="https://en.wikipedia.org/wiki/Upper_Mustang" class="btn">Know more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images1/sanil.jpg" alt="">
+                    <h3>Sanil Lama Waiba</h3>
+                    <p>We really like the trekking ! It was as we expected, the organisation was perfect and Yadav Rimal is very available and kind. He answers fast and precise and he knows what he’s talking about. We really recommend to travel with his compagny!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images1/rabina.jpg" alt="">
+                    <h3>Rabina Maharjan</h3>
+                    <p>We had a wonderful time on our 7 day trek to Khopra Danda which we organised through Yadav Rimal from Himalayan Trails. He was so easy to deal with and informative. Our guide Prasanna and Kamal Chhing were marvellous. They made sure that we were always looked after and comfortable. We had great weather and clear skies so the views of the Annapurna mountains was breathtaking. There was plenty of walking up and down hills so our trekking poles got plenty of use.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images1/manoz.jpg" alt="">
+                    <h3>Manoz Pandey</h3>
+                    <p>I had a 5 days break from work and decided to visit Nature. From the onset of the trip, I had support from Yadav Rimal who provided me with a packed program that captured all of historical and cultural places in the Kathmandu Valley. It was a mesmerising experience made perfect by the local guide Rajiv who was able to give me many insights and information about Nepal. I visited temples, palaces, museums but the highlight of my trip was a hike in the mountain.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images1/saroj.jpg" alt="">
+                    <h3>Saroj Pandey</h3>
+                    <p>To say this was a perfect experience is an understatement! Yadav Rimal provided my girlfriend and I with the dream excursion around Kathmandu. They made it so special, tailoring each step of the way to our wants, needs and desires. Trying authentic foods, exclusive sightseeing, meeting local friends and even directing us to the best (and fair) shops were all part of our journey - not to mention the stories, laughs and unique exchanges along the way. A hard 10/10! Thank you so much Yadav Rimal! We're forever grateful for such an incredible adventure.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>
+                Name: Yadav Rimal<br>
+                Address: Kathmandu-17, Chhetrapati<br>
+                Email:  rimalyadav82@gmail.com<br>
+                Phone: 9880080453,9860517631<br>
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Pokhara</a>
+            <a href="#">Kathmandu</a>
+           
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/profile.php?id=100007183397756">facebook</a>
+            <a href="https://www.instagram.com/mr.rimal1/">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Yadav Rimal </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
